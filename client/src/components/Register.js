@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Register({ setAuth }) {
   const [inputs, setInputs] = useState({
@@ -64,6 +65,7 @@ export default function Register({ setAuth }) {
         />
         <button className="btn btn-success btn-block">Submit</button>
       </form>
+      <Link to="/login">Login</Link>
     </>
   );
 }
