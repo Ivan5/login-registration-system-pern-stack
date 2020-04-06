@@ -3,9 +3,9 @@ const app = express();
 const cors = require("cors");
 
 //middleware
-app.use(express.json());
-app.use(cors());
 
+app.use(cors());
+app.use(express.json());
 // Routes //
 
 //register and login routes
