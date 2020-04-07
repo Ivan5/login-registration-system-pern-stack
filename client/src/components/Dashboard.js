@@ -25,7 +25,7 @@ export default function Dashboard({ setAuth }) {
 
   useEffect(() => {
     getName();
-  });
+  }, []);
 
   return (
     <>
